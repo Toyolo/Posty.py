@@ -26,7 +26,7 @@ def getUser():
 def getPswrd():
     while len(pswrd) < maxLengthList:
         item = input("Password:")
-        user.append(item)
+       pswrd.append(item)
 
 getUser()
 
